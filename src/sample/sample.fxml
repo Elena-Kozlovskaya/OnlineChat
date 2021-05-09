@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" prefHeight="405.0" prefWidth="413.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <AnchorPane prefHeight="406.0" prefWidth="412.0" style="-fx-background-color: #696969;">
+      <children>
+          <TextArea fx:id="mainTextArea" editable="false" layoutX="12.0" layoutY="47.0" prefHeight="301.0" prefWidth="383.0" style="-fx-background-color: #C0C0C0;" wrapText="true" />
+          <Button alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="309.0" layoutY="367.0" onAction="#btnOneClickAction" prefHeight="25.0" prefWidth="88.0" style="-fx-background-color: #BC8F8F; -fx-border-color: #C0C0C0;" text="SEND" textAlignment="CENTER" textFill="#292a2c">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor></Button>
+         <TextField fx:id="mainTextField" layoutX="14.0" layoutY="367.0" prefHeight="27.0" prefWidth="289.0" promptText="Type your message..." style="-fx-background-color: #FFE4E1; -fx-border-color: #C0C0C0;" />
+      </children>
+      <cursor>
+         <Cursor fx:constant="DEFAULT" />
+      </cursor>
+   </AnchorPane>
+</VBox>
